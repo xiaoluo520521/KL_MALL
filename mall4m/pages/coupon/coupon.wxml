@@ -1,0 +1,19 @@
+<view>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+    <van-tab title="可领">
+    <view class='noApply' >
+  <van-empty description="暂无优惠券" />
+</view>
+    </van-tab>
+    <van-tab title="已领">
+      <view class='noApply' >
+  <van-empty description="暂无优惠券" />
+</view>
+    </van-tab>
+    <van-tab title="失效">
+      <view class='noApply' >
+  <van-empty description="暂无优惠券" />
+</view>
+    </van-tab>
+  </van-tabs>
+</view>

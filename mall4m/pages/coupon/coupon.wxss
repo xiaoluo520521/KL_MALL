@@ -1,0 +1,9 @@
+.img {
+  margin-top:200rpx;
+  display:flex;
+  justify-content: center;
+}
+.noApply {
+  margin-top: 150rpx;
+  text-align: center;
+}
