@@ -52,7 +52,7 @@
         </el-col>
       </el-form-item>
       <el-form-item label="产品卖点"
-                    prop="brief":rules="[
+                    prop="brief" :rules="[
                       { required: false, pattern: /\s\S+|S+\s|\S/, message: '请输入正确的产品卖点', trigger: 'blur' }
                     ]">
         <el-col :span="8">
